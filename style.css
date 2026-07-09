@@ -154,3 +154,14 @@ main {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(240, 216, 150, 0.4);
 }
+
+#about {
+  padding: 100px 20px;
+}
+
+#about p {
+  max-width: 1000px;
+  margin: auto auto 20px;
+  text-align: justify;
+  text-indent: 2em;
+}
