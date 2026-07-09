@@ -404,3 +404,154 @@ footer a:hover {
   color: #f28fb0;
 }
 
+#home,
+#about,
+#profile,
+#gallery,
+#video,
+#guestbook {
+  animation: fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #home h2 {
+    font-size: 2.7rem;
+  }
+
+  section h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 15px;
+  }
+
+  nav ul {
+    gap: 12px;
+  }
+
+  #home {
+    flex-direction: column;
+    text-align: center;
+    padding: 90px 15px;
+  }
+
+  .home-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-text {
+    max-width: 100%;
+  }
+
+  #home h2 {
+    font-size: 2rem;
+  }
+
+  #home p {
+    margin: 0 auto 30px;
+    font-size: 1rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .profile-photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-quote {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  #gallery ul,
+  #video ul {
+    grid-template-columns: 1fr;
+  }
+
+  .guestbook {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 14px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  nav ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav ul a {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  #home h2 {
+    font-size: 1.6rem;
+  }
+
+  .home-img img,
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .foto-card img {
+    height: 220px;
+  }
+
+  .guestbook {
+    padding: 15px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
