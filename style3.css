@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Dancing Script";
   color: #33452a;
   line-height: 1.2;
 }
@@ -108,7 +108,7 @@ main {
   max-width: 600px;
 }
 
-.home-text a{
+.home-text a {
   display: table;
   margin: 0 auto;
 }
