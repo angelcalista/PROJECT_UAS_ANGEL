@@ -93,7 +93,7 @@ main {
 }
 
 .home-img {
-  order: 1;
+  order: 0;
 }
 .home-img img {
   width: 260px;
