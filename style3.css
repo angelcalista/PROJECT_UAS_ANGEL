@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Quicksand", sans-serif;
   background-color: #fffaf0;
   color: #7a6a4a;
   line-height: 1.7;
@@ -19,7 +19,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Playfair Display", serif;
+  font-family: "Fredoka", sans-serif;
   color: #6b5433;
   line-height: 1.2;
 }
@@ -51,8 +51,9 @@ header {
 }
 
 header h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 2rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
   color: #e8c874;
 }
 
@@ -196,8 +197,9 @@ main {
 
 .profile-quote {
   margin-top: 20px;
-  font-family: "Dancing Script", cursive;
-  font-size: 1.4rem;
+  font-family: "Baloo 2", cursive;
+  font-size: 1.2rem;
+  font-weight: 500;
   font-style: normal;
   color: #d68fa3;
   border-left: 3px solid #e8a8b8;
@@ -338,7 +340,7 @@ main {
   border: 1px solid #f5e3b3;
   border-radius: 12px;
   font-size: 15px;
-  font-family: "Lato", sans-serif;
+  font-family: "Quicksand", sans-serif;
   transition: 0.3s;
 }
 
