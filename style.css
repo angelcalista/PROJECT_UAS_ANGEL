@@ -36,3 +36,47 @@ section h2 {
   text-align: center;
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  background: rgba(255, 250, 240, 0.95);
+  border-bottom: 2px solid #f5e3b3;
+  backdrop-filter: blur(10px);
+}
+
+header h1 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #e8c874;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6b5433;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f28fb0;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
