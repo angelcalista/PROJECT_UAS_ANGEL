@@ -381,3 +381,26 @@ button:hover {
   background: #e56f96;
   transform: translateY(-2px);
 }
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #fffaf0;
+  border-top: 1px solid #f5e3b3;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #e8c874;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #f28fb0;
+}
+
