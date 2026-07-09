@@ -135,3 +135,22 @@ main {
   margin: 0 0 30px;
   font-size: 1.15rem;
 }
+
+#home a {
+  display: inline-block;
+  padding: 14px 32px;
+  text-decoration: none;
+  background: #f0d896;
+  color: #6b5433;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(240, 216, 150, 0.5);
+}
+
+#home a:hover {
+  background: #e8c874;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(240, 216, 150, 0.4);
+}
