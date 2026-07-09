@@ -334,3 +334,50 @@ main {
   backdrop-filter: blur(10px);
   box-shadow: 0 15px 40px rgba(240, 216, 150, 0.2);
 }
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #6b5433;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #f5e3b3;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: "Quicksand", sans-serif;
+  transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #e8c874;
+  box-shadow: 0 0 10px rgba(240, 216, 150, 0.25);
+}
+
+button {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  background: #f28fb0;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e56f96;
+  transform: translateY(-2px);
+}
