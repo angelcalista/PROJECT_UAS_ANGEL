@@ -1,1 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fffaf0;
+  color: #7a6a4a;
+  line-height: 1.7;
+}
 
